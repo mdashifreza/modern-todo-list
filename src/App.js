@@ -1,8 +1,11 @@
+import { Navbar } from "./components/Navbar";
+import { TodoList } from "./components/TodoList";
 function App() {
   return (
-    <div className="App text-3xl text-red-400 font-bold underline">
-        md ashif reza
-    </div>
+    <div>
+      <Navbar />  
+      <TodoList />
+  </div>
   );
 }
 export default App;
