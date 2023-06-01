@@ -31,7 +31,7 @@ export const TodoList = () => {
         <div className='flex justify-between mx-20 items-center h-screen'>
             <div>
                 <input type="text" placeholder="add task here" className="justify-between placeholder:p-2 border-2 rounded border-gray-500 outline-gray-600 p-2 text-black w-[400px] h-[100px] text-3xl" onChange={(e) => setInput(e.target.value)} value={input} />
-                <i className="p-2 bg-white rounded text-black font-extrabold text-2xl cursor-pointer" onClick={handleAddTodo}>{editId ? 'Edit-Todo' : 'Add-Todo'}</i>
+                <i className="p-2 bg-white rounded text-black font-extrabold text-2xl ml-2 cursor-pointer" onClick={handleAddTodo}>{editId ? 'Edit-Todo' : 'Add-Todo'}</i>
             </div>
             <div className="dataShow text-white">
                 {
